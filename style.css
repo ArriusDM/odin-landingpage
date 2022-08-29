@@ -9,6 +9,9 @@
 .header-container {
     display:flex;
 }
+.headerLogo {
+    margin-right: auto;
+}
 .header, .mainSub{
     font-size: 18px;
     color: #E5e7eb;
@@ -25,5 +28,15 @@
 }
 .main-con1 {
     display:flex;
+    flex-flow: column;
 }
 
+.mainImage {
+    margin: auto;
+    width: 450px;
+    height: 200px;
+    background: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
