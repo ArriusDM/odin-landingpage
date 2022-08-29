@@ -1,8 +1,22 @@
+.hero-container {
+    display:flex;
+}
 
 .hero {
     background-color: #1F2937;
     display:flex;
-    flex: none;
+}
+
+.header-container {
+    display:flex;
+}
+.header, .mainSub{
+    font-size: 18px;
+    color: #E5e7eb;
+}
+
+.main-container {
+    display:flex;
 }
 
 .main {
@@ -11,16 +25,4 @@
     color: #f9faf8;
 }
 
-.main, .mainImage{
-    display:flex;
-}
 
-.main, .mainSub, .mainButton{
-    display:flex;
-    flex-direction: column;
-}
-
-.header, .mainSub{
-    font-size: 18px;
-    color: #E5e7eb;
-}
